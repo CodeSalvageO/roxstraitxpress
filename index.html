@@ -1,0 +1,16 @@
+<!DOCTYPE HTML>
+<html>
+<body>
+<center><h1 style="font-family:roboto;">RoxstraitXpress</h1></center>
+<button onclick="goDestination()">Where do you want to go?</button>
+<p id="demo"></p>
+<script>
+function goDestination() {
+    var search = prompt("Your Destination", "Save The Memes");
+    if (search != null) {
+        document.getElementById("demo").innerHTML = window.location.href = search;
+    }
+}
+</script>
+</body>
+</html>
